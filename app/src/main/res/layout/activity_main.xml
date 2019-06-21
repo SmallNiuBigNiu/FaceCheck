@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取access_token"
+         android:id="@+id/btn_get_token"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="token"
+        android:id="@+id/tv_token"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="人脸检测"
+        android:id="@+id/btn_detect"/>
+
+    <com.example.demo.MyImageView
+        android:layout_width="517dp"
+        android:layout_height="250dp"
+        android:id="@+id/iv_image"
+        android:src="@drawable/xuezhiqian"/>
+
+</LinearLayout>
